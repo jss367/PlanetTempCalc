@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.planettempcalculator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.planettempcalculator.Mass"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.planettempcalculator.Distance"
+            android:label="@string/app_distance" >
+        </activity>
+                <activity
+            android:name="com.example.planettempcalculator.BondAlbedo"
+            android:label="@string/app_bond_albedo" >
+        </activity>
+                <activity
+            android:name="com.example.planettempcalculator.Greenhouse"
+            android:label="@string/app_greenhouse" >
+        </activity>
+                        <activity
+            android:name="com.example.planettempcalculator.Result"
+            android:label="@string/app_result" >
+        </activity>
+        <service android:enabled="true" android:name=".MyService" />
+      </application>
+
+</manifest>

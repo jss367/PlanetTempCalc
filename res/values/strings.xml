@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PlanetTempCalculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mass">Enter the mass of the nearest star</string>
+    <string name="distance">Enter the distance from the nearest star:</string>
+    <string name="app_distance">Distance</string>
+    <string name="app_bond_albedo">Bond Albedo</string>
+    <string name="app_greenhouse">Greenhouse Effect</string>
+    <string name="app_result">Result</string>
+    <string name="bond_albedo">Enter the bond albedo of the planet:</string>
+    <string name="greenhouse">Enter the greenhouse effect of the planet:</string>
+    <string name="button_next">Next</string>
+    <string name="calculate">Calculate</string>
+    <string name="effective_temperature_blurb">First, we calculate the effective temperature. Effective temperature is the amount of heat available to heat a planet. Once mass (M), distance
+
+(D) and bond albedo (A) are entered, effective temperature can be calculated using the general
+
+equation����!" = ����!"#. ����!" is derived from the formula:
+
+RateIN = !
+
+!!!! ∗ ��! ∗ 1−� . 
+
+ !
+
+!!!! is “flux” in erg/cm2
+
+fraction of starlight absorbed. RateOUT is calculated as (4πR2
+
+the planet and (σT4
+
+constant, equal to 5.6703 ∗ 10!!�����/��!/�!, and T is temperature in degrees Kelvin. By 
+
+canceling out �! and solving for T we get the following formula for effective temperature: 
+
+/sec, ��! is the cross section of the planet, and (1-A) is the
+
+)(σT4
+
+), where (4πR2
+
+) is the formula for hot “black” body radiation. σ is the Stefan-Boltzman 
+
+�!"" = !!! ∗!
+
+!
+
+! ∗ !
+
+!"!"
+
+! .</string>
+
+    
+    <string name="greenhouse_blurb">Determining the exact greenhouse effect is beyond the scope of this project. Since this 
+
+program is designed to be used by middle grade students, it was decided to accept a simple 
+
+number to represent overall greenhouse effect. We decided that we would call the Earth’s 
+
+greenhouse effect 1. No greenhouse effect would equal 0. Working backwards using the values
+
+for Venus yielded a greenhouse effect of around 200 for the planet. There is no theoretical upper
+
+limit for the effect, but since Venus’s greenhouse effect is about 200 times as strong as Earth’s
+
+using this formula, we decided to set an upper limit of 500.
+
+We were able to come up with a value for greenhouse effect by starting with the formula: 
+
+where �!" equals the greenhouse effect. Solving for �!" yields:
+
+ Substituting known values for Earth yields: 
+
+ So 0.584 become the greenhouse constant that is multiplied by the greenhouse effect 
+
+value entered by the user.</string>
+
+    
+    <string name="cold">COLD</string>
+
+    
+    <string name="habitable">HABITABLE?</string>
+
+    
+    <string name="hot">HOT</string>
+    
+        <string name="message"></string>
+        
+        <string name="messages"></string>
+
+</resources>

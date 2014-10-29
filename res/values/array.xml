@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units_array">
+        <item>Solar Masses</item>
+        <item>Kilograms</item>
+        <item>Pounds</item>
+        <item>Tons</item>
+        <item>Elephants</item>
+        <item>Grams</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
